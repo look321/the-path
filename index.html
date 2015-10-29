@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>"The Path" by Bao Xiao</title>
+<style type="text/css">
+body {
+	background-color: #FFDC4D;
+	overflow: scroll;
+}
+
+div {
+	margin-left: 22%;
+	margin-top: 5%;
+	display: line !important;	
+
+}
+	
+</style>
+
+</head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    var width = $(window).scrollLeft();
+	
+    // alert($('#scroll-to-element').offset().left);
+
+    if(height  >= $('#scroll-to-element').offset().top && width >= $('#scroll-to-element').offset().left) {
+        $(lonely).attr('src', '_image/3-2.gif')
+
+    }
+});
+
+var array = [];
+
+var ranNum = Math.floor(Math.random() * (12 - 0)) + 0;
+  
+for (var i = 0; i < 12; i++) {
+	
+	if( i == ranNum ) 
+		array.push("_image/extra.gif");
+	else
+		array.push("_image/blank.gif");
+}
+
+</script>
+
+<div style="width:200%">
+	<img src="_image/1.gif"  width="28%" height="28%"  alt=""/> 
+</div>
+
+<div style="width:200%">
+	<img src="_image/2.gif"  width="28%" height="28%"  alt=""/> 
+</div>
+
+<div style="width:400%">
+	<img src="_image/3.gif"  width="14%" height="14%"  alt="" id="lonely"/> 
+    <img style="margin-left: 2%" src="_image/Arrow2.gif" width="14%" height="14%" alt=""  />
+    <img style="margin-left: 2%" src="_image/Arrow1.gif" width="14%" height="14%" alt=""  />
+    <img id="scroll-to-element" style="margin-left: 2%" src="_image/22.gif" width="14%" height="14%" alt=""  />
+    <img style="margin-left: 2%" src="_image/21.gif" width="14%" height="14%" alt=""  />
+    <img style="margin-left: 2%" src="_image/20.gif" width="14%" height="14%" alt=""  />
+</div>
+
+<div style="width:400%">
+	<img src="_image/4.gif"  width="14%" height="14%"  alt=""/> 
+	<img style="margin-left: 66.3%" src="_image/19.gif" width="14%" height="14%" alt=""  />
+</div>
+
+<div style="width:400%">
+	<img src="_image/5.gif"  width="14%" height="14%"  alt=""/> 
+    <img id="extra-0" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-0").setAttribute('src', array[0]); </script>
+    <img id="extra-1" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-1").setAttribute('src', array[1]); </script>
+    <img id="extra-2" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-2").setAttribute('src', array[2]); </script>
+    <img id="extra-3" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-3").setAttribute('src', array[3]); </script>
+    <img style="margin-left: 2%" src="_image/18.gif" width="14%" height="14%" alt=""  />
+</div>
+
+<div style="width:400%">
+	<img src="_image/6.gif"  width="14%" height="14%"  alt=""/> 
+    <img id="extra-4" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-4").setAttribute('src', array[4]); </script>
+    <img id="extra-5" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-5").setAttribute('src', array[5]); </script>
+    <img id="extra-6" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-6").setAttribute('src', array[6]); </script>
+    <img id="extra-7" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-7").setAttribute('src', array[7]); </script>
+    <img style="margin-left: 2%" src="_image/17.gif" width="14%" height="14%" alt=""  />
+</div>
+
+<div style="width:400%">
+	<img src="_image/7.gif"  width="14%" height="14%"  alt=""/> 
+    <img id="extra-8" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-8").setAttribute('src', array[8]); </script>
+    <img id="extra-9" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-9").setAttribute('src', array[9]); </script>
+    <img id="extra-10" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-10").setAttribute('src', array[10]); </script>
+    <img id="extra-11" style="margin-left: 2%" width="14%" height="14%" alt=""  /> <script> document.getElementById("extra-11").setAttribute('src', array[11]); </script>
+    <img style="margin-left: 2%" src="_image/16.gif" width="14%" height="14%" alt=""  />
+</div>
+
+<div style="width:400%">
+	<img src="_image/8.gif"  width="14%" height="14%"  alt=""/> 
+	<img style="margin-left: 66.3%" src="_image/15.gif" width="14%" height="14%" alt=""  />
+</div>
+
+<div style="width:400%; margin-bottom:5%">
+	<img src="_image/9.gif"  width="14%" height="14%"  alt=""/> 
+	<img style="margin-left: 2%" src="_image/10.gif" width="14%" height="14%" alt=""  />
+    <img style="margin-left: 2%" src="_image/11.gif" width="14%" height="14%" alt=""  />
+    <img style="margin-left: 2%" src="_image/12.gif" width="14%" height="14%" alt=""  />
+    <img style="margin-left: 2%" src="_image/13.gif" width="14%" height="14%" alt=""  />
+    <img style="margin-left: 2%" src="_image/14.gif" width="14%" height="14%" alt=""  />
+</div>
+
+</body>
+</html>
+
